@@ -2,7 +2,7 @@ import os
 from moviepy.editor import VideoFileClip, concatenate_videoclips
 
 # Define the folder containing the videos
-folder_path = r"C:\Users\The Elder\Downloads\Airplanes"
+folder_path = r"C:\Users\The Elder\Downloads\Airplanes" # Add folder directory
 
 # Function to extend video length to at least 15 seconds
 def extend_video_length(video_path, min_length=15):

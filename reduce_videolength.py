@@ -2,7 +2,7 @@ import os
 from moviepy.editor import VideoFileClip
 
 # Define the folder containing the videos
-folder_path = r"C:\Users\The Elder\Downloads\Airplanes\reduce_length"
+folder_path = r"C:\Users\The Elder\Downloads\Airplanes\reduce_length" # Add folder directory
 
 # Function to trim video length to 40 seconds if it's longer than 59 seconds
 def trim_video_length(video_path, max_length=59, target_length=40):

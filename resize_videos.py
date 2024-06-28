@@ -2,7 +2,7 @@ import os
 import subprocess
 
 # Define the folder containing the videos
-folder_path = r"C:\Users\The Elder\Downloads\Airplanes"
+folder_path = r"C:\Users\The Elder\Downloads\Airplanes"  # Add folder directory
 
 # Define the output resolution
 width = 720
